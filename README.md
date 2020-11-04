@@ -17,7 +17,7 @@ DAFTAR ISI
 ## Pertemuan 5 - Tugas
 
 Pada pertemuan 5 Bahasa Pemrograman saya diberi tugas oleh Dosen untuk membuat Aplikasi Biodata Python (seperti Gambar dibawah ini)
-![tugas_5](biodata.PNG)<br>
+!![biodata](https://user-images.githubusercontent.com/73273061/98085880-8e92e100-1eb0-11eb-8e6c-3f16e7587424.png)<br>
 Saat ini saya akan menjelaskan hasil dari tugas tersebut.<br>
 Berikut source code nya atau Klik Link berikut ([Tugas 5 python](tugas_pertemuan5.py)): <br>
  python
@@ -62,7 +62,7 @@ print("Nama saya adalah...")
 print(1234567)
 
 (Seperti gambar dibawah ini)<br> 
-![Output fungsi Print](myname.PNG )
+![contoh_12](https://user-images.githubusercontent.com/73273061/98085910-9a7ea300-1eb0-11eb-9743-40b71a233307.png)
  * Untuk source code berikutnya adalah inputan atau membuat variable. seperti syntax dibawah ini :
   python
 fullname=input()
@@ -92,7 +92,7 @@ print("\n\n Assalamu'alaikum. ")
 1. Fungsi *\n* pada source code di atas adalah untuk memberi baris baru / enter / (newline)
 2. Fungsi print() seperti dijelaskan pada point *Output* diatas
 Hasil dari source code diatas adalah seperti gambar dibawah ini :<br>
-![Output name](salam.PNG)
+![salam](https://user-images.githubusercontent.com/73273061/98085997-b7b37180-1eb0-11eb-8569-f2c9c8257166.png)
  python
 print(f"Let me introduce my self, my name is {fullname}, but you can call me {nickname}, my NPM {npm}, I was born in {pob} and iam {dob} years old, I am very glad if you want to invite my house in {address}, So don't forget to call me before with the number {phone}, \n\n Thanks you ")
  
@@ -100,7 +100,8 @@ Keterangan :
 1. Fungsi huruf *f* pada perintah print(f"....") adalah fungsi print atau bisa memudahkan programer dalam mencetak statement dalam satu baris dibandingkan dengan metode yang lama yaitu memisahkan string dan variable dengan simbol koma( , ) atau plus ( + )<br>
 2. sedangkan fungsi {} pada output tersebut adalah untuk menampilkan hasil dari variable<br>
 Hasil dari output tersebut seperti berikut :<br>
-![All output](name.PNG)
+![name](https://user-images.githubusercontent.com/73273061/98085989-b3875400-1eb0-11eb-8690-ce1742299a18.png)
+
 
 <br>
 ---
@@ -148,7 +149,7 @@ print('Y')
 print('z')
 
 Hasil dari source code tersebut seperti gambar dibawah ini :<br>
-![Output END](lab1_.PNG)
+!![lab1_](https://user-images.githubusercontent.com/73273061/98085925-9fdbed80-1eb0-11eb-9291-69b2f172e374.png)
 
 * Penggunaan separator
 
@@ -182,7 +183,7 @@ print(w,x,y,z,sep="-----")
 
 
 hasil dari syntax / source code diatas adalah seperti berikut ini : <br>
-![Output Separator](separator.PNG)
+![sparator](https://user-images.githubusercontent.com/73273061/98086037-c39f3380-1eb0-11eb-94c9-cdde6cb05db2.png)
 
 
 
@@ -196,8 +197,9 @@ hasil dari syntax / source code diatas adalah seperti berikut ini : <br>
 * String Format<br>
 String formatting atau pemformatan string memungkinan kita menyuntikkan item kedalam string dari pada kita mencoba menggabungkan string menggunakan koma atau string concatenation.<br>
 
-Penggunaan source code yang di berikan oleh dosen seperti berikut :
-![Lab 1-2](string.PNG)
+Penggunaan source code yang di berikan oleh dosen seperti berikut:
+
+![string](https://user-images.githubusercontent.com/73273061/98086042-c4d06080-1eb0-11eb-92a0-e7b16976639a.png)
  python
 #string format 1
 print(0, 10**0)
@@ -232,7 +234,8 @@ Pada syntax / source code strring format satu akan menampilkan output berupa 2 o
 Yang pertama (sebelah kiri) akan menampilkan angka urut dari angka 0 hingga 10, sedangkan untuk sebelah kanan akan menampilkan Operasi Aritmatika Pangkat.<br> 
 Dengan ketentuan sebagai berikut, Operasi pangkat dengan angka kiri sebagai pokok (Rumus : ** [bintang dua] )<br>
  Hasil dari syntax tersebut adalah 10 pangkat 0, hingga 10 pangkat 10, dengan output  sebagai berikut : <br>
- ![Operasi Aritmatika Pangkat](Lab1-2.PNG)
+ 
+![lab1-2](https://user-images.githubusercontent.com/73273061/98085936-a10d1a80-1eb0-11eb-9a16-1cab503b6752.png)
  
  2 * String Format 2* <br>
  Pada syntax atau source code string format dua akan menampilkan output berupa 2 output'an juga (seperti String Format 1, yaitu kanan dan kiri )<br>
@@ -245,17 +248,17 @@ print('{0:8} | {1:9}'.format('Anggur,3.))
 print('{0:8} | {1:9}'.format('Strawbwery',10))
 
 Hasil dari source code contoh diatas akan seperti berikut :<br>
-![Output Alignment Contoh](contoh_12.PNG)
+![lab1-2](https://user-images.githubusercontent.com/73273061/98085936-a10d1a80-1eb0-11eb-9a16-1cab503b6752.png)
 >Secara Default,*.format()* menggunakan rata text ke kiri, angka ke kanan, kita dapat menggunakan opsi opsional<,^,atau > untuk mengatur perataan kiri, tengah, atau kanan. Contoh lain dalam penggunaan *.format()* sebagai berikut : <br>
  python
 print('{:<30}{:30}{:>30}'.format('kiri','tengah','kanan'))
 print('{:<30}{:30}{:>30}'.format(7,20,34))
 
 Hasil dari source code contoh diatas akan muncul seperti ini :<br>
-![Output Alignment Contoh 2](contoh13.PNG)
+![contoh13](https://user-images.githubusercontent.com/73273061/98085912-9b173980-1eb0-11eb-853e-8f8a5d1ee80a.png)
 <br><br>
 Untuk hasil dari String Format 2 adalah :<br>
-![Output String Format 2](lab14.PNG)
+![lab14](https://user-images.githubusercontent.com/73273061/98085981-b124fa00-1eb0-11eb-9d44-fcb4051ccb1c.png)
 
 <br><hr><br>
 
@@ -263,7 +266,8 @@ Untuk hasil dari String Format 2 adalah :<br>
 * Konversi Nilai Variable <br>
 Untuk pembahasan terakhir, kali ini akan menyelesaikan tugas Lab 2 dari Dosen, yaitu konversi Nilai Variable<br>
 Tugas 
-![Picture Lab 2](Lab2.PNG)
+![Lab2](https://user-images.githubusercontent.com/73273061/98085941-a36f7480-1eb0-11eb-9d61-9a479e55e7c3.png)
+
  python
 a=input("masukkan nilai a : ")
 b=input("masukkan nilai b : ")
@@ -280,7 +284,7 @@ print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 <br>
 Setelah saya menjelaskan source code tersebut terdapat error, seperti gambar dibawah ini :<br>
 
-![Error Lab 2](error.PNG)<br>
+![error](https://user-images.githubusercontent.com/73273061/98085918-9e122a00-1eb0-11eb-9d8e-7ad8605a917e.png) <br>
 Nah, untuk kali ini kita akan membaca error yang telah terjadi.<br>
 > *TypeError: %d format: a  number is required, not str* <br>
 
@@ -312,7 +316,8 @@ print("hasil pejumlahan {1}+{0}=%d".format(a,b) %(a+b))
 print("hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 
 Kita akan coba lagi untuk run file tersebut, maka akan muncul seperti gambar dibawah ini :<br>
- ![Fixed Error Lab 2](eror12.PNG)
+ ![eror12](https://user-images.githubusercontent.com/73273061/98085916-9c486680-1eb0-11eb-9ab4-0669c7d40edd.png)
+
  <br><br>
  <hr>
  Setelah semua file berhasil disimpan dan dijalankan berhasil, maka selesai sudah Tugas pertemuan 6 - Bahasa pemrograman kali ini.
@@ -322,5 +327,3 @@ Kita akan coba lagi untuk run file tersebut, maka akan muncul seperti gambar dib
  ### ALFHIN CHORRYAGNESHA AZIZ / 312010504 / TI.20 A.1 <br>
  ### ===================================== <br>
 
-
-fnstfvggnyy
