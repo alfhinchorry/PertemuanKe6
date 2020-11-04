@@ -17,15 +17,15 @@ DAFTAR ISI
 ## Pertemuan 5 - Tugas
 
 Pada pertemuan 5 Bahasa Pemrograman saya diberi tugas oleh Dosen untuk membuat Aplikasi Biodata Python (seperti Gambar dibawah ini)
-!![biodata](https://user-images.githubusercontent.com/73273061/98085880-8e92e100-1eb0-11eb-8e6c-3f16e7587424.png)<br>
+!![biodata](https://user-images.githubusercontent.com/73273061/98085880-8e92e100-1eb0-11eb-8e6c-3f16e7587424.png)
 Saat ini saya akan menjelaskan hasil dari tugas tersebut.<br>
 Berikut source code nya atau Klik Link berikut ([Tugas 5 python](tugas_pertemuan5.py)): <br>
- python
-print("==============================")
+ ```python
+print("******************************")
 print("= NAMA    : ALFHIN CHORRYAGNESHA AZIZ")
-print("= NIM     : 312010504                ")
-print("= KELAS   : TI.20 A.1                ")
-print("==============================       ")
+print("= NIM     : 312010504         ")
+print("= KELAS   : TI.20 A.1         ")
+print("******************************")
 
 print("Please enter your full name : ")
 fullname=input()
@@ -149,7 +149,7 @@ print('Y')
 print('z')
 
 Hasil dari source code tersebut seperti gambar dibawah ini :<br>
-!![lab1_](https://user-images.githubusercontent.com/73273061/98085925-9fdbed80-1eb0-11eb-9291-69b2f172e374.png)
+![gitpush](praktikum/lab_1.png) <br>
 
 * Penggunaan separator
 
